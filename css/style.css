@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,300;1,700&family=Quicksand:wght@400;700&display=swap);
+body {
+  /* scroll-behavior: smooth; */
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+.jumbotron {
+  padding-top: 7rem;
+  /* background-color: #e2edff; */
+  background: linear-gradient(to right, #033a62, #0095ff ); 
+}
+
+table {
+  box-shadow: 5px 5px 12px rgb(0,0,0.16);
+  width: 50%;
+  border: 1px solid black;
+}
+th, td {
+  color: white;
+  text-decoration-line: none;
+  background-color: rgb(43, 108, 110);
+  border: 1px solid black;
+  padding: 8px;
+}
+td a {
+  text-decoration: none;
+  color: white;
+}
+th {
+  color: white;
+  background-color: cadetblue;
+}
+
+#projects {
+  color: white;
+  background-color: #033a62;
+}
+section {
+  padding-top: 5rem;
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0;
+}
+svg{
+  margin: 0;
+  padding: 0;
+}
